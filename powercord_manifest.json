@@ -1,0 +1,9 @@
+{
+    "name": "Midnight Essence",
+    "description": "A beautiful, rounded, smooth deep blue theme.",
+    "version": "1.0.0",
+    "author": "LuckFire",
+    "theme": "./src/index.scss",
+    "consent": "true",
+    "license": "MIT"
+}

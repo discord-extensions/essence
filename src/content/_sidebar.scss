@@ -1,0 +1,28 @@
+#app-mount .sidebar-1tnWFu {
+    position: relative;
+    margin-top: calc(45px + var(--me-separation));
+    border-top-left-radius: var(--me-rounding);
+    border-bottom-left-radius: var(--me-rounding);
+    background-color: var(--background-primary);
+    -webkit-app-region: no-drag;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        left: 237px;
+        width: 2px;
+        border-radius: 41x;
+        background-color: #27273F;
+    }
+    nav, .panels-3wFtMD, .scroller-WSmht3 {
+        background-color: transparent;
+    }
+    nav {
+        margin-right: 2px;
+    }
+
+    .header-3OsQeK, .searchBar-3TnChZ {
+        box-shadow: none;
+    }
+}

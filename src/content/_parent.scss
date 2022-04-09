@@ -1,0 +1,13 @@
+.content-1SgpWY {
+    margin: var(--me-separation);
+    .sidebar-1tnWFu + div {
+        margin-top: calc(45px + var(--me-separation));
+        -webkit-app-region: no-drag;
+        border-top-right-radius: var(--me-rounding);
+        border-bottom-right-radius: var(--me-rounding);
+        .content-1jQy2l::before {
+            display: none;
+        }
+
+    }
+}

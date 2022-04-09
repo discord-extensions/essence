@@ -1,0 +1,20 @@
+.container-ZMc96U {
+    position: fixed;
+    top: var(--me-separation);
+    left: var(--me-separation);
+    width: calc(100% - 21px - var(--me-separation));
+    height: 45px;
+    border-radius: var(--me-rounding);
+    -webkit-app-region: no-drag;
+
+    .toolbar-3_r2xA {
+        margin-right: 92px;
+        &::after {
+            content: "";
+            width: 2px;
+            height: 27px;
+            border-radius: 2px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+}

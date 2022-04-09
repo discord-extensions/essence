@@ -1,0 +1,12 @@
+.scroller-kQBbkU {
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 0 2px var(--background-primary);
+        background-color: var(--background-secondary);
+    }
+}
+
+.scroller-kQBbkU {
+    &::-webkit-scrollbar-thumb {
+        background-color: #F57F3D;
+    }
+}

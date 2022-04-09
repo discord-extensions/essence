@@ -1,0 +1,12 @@
+.guilds-2JjMmN {
+    margin: var(--me-separation);
+    margin-top: calc(65px + var(--me-separation));
+    margin-right: 0;
+    border-radius: var(--me-rounding);
+    background-color: var(--background-primary); // temporary
+    -webkit-app-region: no-drag;
+
+    .childWrapper-1j_1ub, .circleIconButton-1VxDrg {
+        background-color: var(--background-secondary);
+    }
+}
