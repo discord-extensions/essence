@@ -1,5 +1,27 @@
 .guilds-2JjMmN .scrollerBase-_bVAAt {
+    margin-top: calc(45px + var(--me-separation));
     padding-top: 12px;
     padding-bottom: 12px;
-    background: transparent;
+    border-radius: var(--me-rounding);
+    background-color: var(--background-primary);
+    -webkit-app-region: no-drag;
+
+    .childWrapper-1j_1ub, .circleIconButton-1VxDrg {
+        background-color: var(--background-secondary-alt);
+    }
+
+    .folder-241Joy.hover-3m7-WT {
+        background-color: var(--background-secondary-alt);
+    }
+    .circleIconButton-1VxDrg {
+        color: hsla(var(--me-green));
+        &.selected-2r1Hvo {
+            color: hsla(var(--me-green-text));
+            background-color: hsla(var(--me-green));
+        }
+    }
+
+    // .wrapper-z5ab_q .item-2LIpTv {
+    //     background-color: red;
+    // }
 }

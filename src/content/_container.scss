@@ -2,7 +2,7 @@
     position: fixed;
     top: var(--me-separation);
     left: var(--me-separation);
-    width: calc(100% - 21px - var(--me-separation));
+    width: calc(100% - var(--me-separation) * 2);
     height: 45px;
     border-radius: var(--me-rounding);
     -webkit-app-region: no-drag;
