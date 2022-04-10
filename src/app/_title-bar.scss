@@ -5,9 +5,10 @@
     height: 0;
     margin: 0;
     .wordmarkWindows-2dq6rw {
-        display: none;
+        visibility: hidden;
     }
     .winButton-3UMjdg {
+        z-index: 1;
         width: 19px;
         height: 19px;
         margin-left: 10px;
