@@ -12,21 +12,26 @@
         opacity: 1 !important;
         position: fixed;
         height: 45px;
-        .toolbar-3_r2xA{
-            margin-right: 98px;
-            &::after {
-                content: "";
-                margin-left: 5px;
-                width: 1px;
-                height: 25px;
-                background-color: rgba(255, 255, 255, 0.1);
+        .headerWrapper-1ULEPv{
+            position: absolute;
+            width: 100%;
+            top: 0;
+            .toolbar-3_r2xA{
+                margin-right: 98px;
+                &::after {
+                    content: "";
+                    margin-left: 5px;
+                    width: 1px;
+                    height: 25px;
+                    background-color: rgba(255, 255, 255, 0.1);
+                }
             }
-        }
-        .iconWrapper-2awDjA{
-            margin: 0 5px 0 7px;
-        }
-        .divider-2keupe{
-            display: none;
+            .iconWrapper-2awDjA{
+                margin: 0 5px 0 7px;
+            }
+            .divider-2keupe{
+                display: none;
+            }
         }
     }
 }
