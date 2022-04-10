@@ -1,11 +1,12 @@
-#app-mount .tooltip-14MtrL,
-#app-mount .tooltipContent-Nejnvh {
-    color: hsl(var(--me-pink-text));
-}
-
 #app-mount {
+    .tooltip-14MtrL {
+        background-color: hsla(var(--me-pink));
+    }
+    .tooltip-14MtrL, .tooltipContent-Nejnvh {
+    color: hsl(var(--me-pink-text));
+    }
     .tooltip-14MtrL,
-    // .tooltip-14MtrL svg,
+    .tooltip-14MtrL svg,
     .guildNameText-jBFbNC,
     .colorMuted-20987_ {
         color: hsl(var(--me-pink-text));

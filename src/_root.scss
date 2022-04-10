@@ -10,13 +10,15 @@
     --me-green: 140, calc(var(--saturation-factor,1)*90%), 60%;
     --me-green-text: 140, calc(var(--saturation-factor,1)*90%), 15%;
     --me-orange: 22, calc(var(--saturation-factor,1)*90%), 60%;
+    --me-red: 0, calc(var(--saturation-factor,1)*90%), 60%;
 
     /* [ BASE COLORS ] */
     --background-primary: #1B1B2D;
     --background-secondary: #232339;
     --background-secondary-alt: #2D2D49;
     --background-tertiary: #11111D;
-    --background-floating: hsl(var(--me-pink));
+    --background-floating: var(--background-secondary);
+    --input-background: var(--background-secondary-alt);
     --scroller-background: var(--background-secondary);
     --scroller-thumb: #F53D7A;
 
