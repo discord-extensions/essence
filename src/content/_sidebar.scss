@@ -11,8 +11,7 @@
         top: 20px;
         bottom: 20px;
         left: 237px;
-        width: 2px;
-        border-radius: 41x;
+        width: 1px;
         background-color: var(--background-secondary);
     }
     
@@ -25,5 +24,19 @@
 
     .header-3OsQeK, .searchBar-3TnChZ {
         box-shadow: none;
+    }
+
+    // user area
+    .panels-3wFtMD::before {
+        content: "";
+        position: absolute;
+        left: 15px;
+        width: calc(100% - 38px) !important;
+        height: 1px;
+        background-color: var(--background-secondary);
+    }
+
+    .container-1zzFcN, .activityPanel-9icbyU {
+        border: none;
     }
 }
