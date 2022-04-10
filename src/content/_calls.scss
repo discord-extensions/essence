@@ -1,0 +1,35 @@
+.videoControls-353CsJ{
+    justify-content: flex-end;
+    .topControls-23RE3h{
+        width: calc(100% - calc(var(--me-separation) * 4));
+        background-color: var(--background-primary);
+        border-radius: var(--me-rounding);
+        padding: 0 var(--me-separation);
+        transition: none !important;
+        left: var(--me-separation);
+        transform: none !important;
+        top: var(--me-separation);
+        opacity: 1 !important;
+        position: fixed;
+        height: 45px;
+        .toolbar-3_r2xA{
+            margin-right: 98px;
+            &::after {
+                content: "";
+                margin-left: 5px;
+                width: 1px;
+                height: 25px;
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+        }
+        .iconWrapper-2awDjA{
+            margin: 0 5px 0 7px;
+        }
+        .divider-2keupe{
+            display: none;
+        }
+        >*{
+            -webkit-app-region: no-drag;
+        }
+    }
+}

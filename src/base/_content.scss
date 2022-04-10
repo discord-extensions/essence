@@ -1,10 +1,11 @@
 .content-1SgpWY {
     margin: var(--me-separation);
-    .sidebar-1tnWFu + div {
+    .chat-2ZfjoI, .container-2cd8Mz, .container-36u7Lw, .applicationStore-2nk7Lo, .pageWrapper-2PwDoS {
         margin-top: calc(45px + var(--me-separation));
-        -webkit-app-region: no-drag;
         border-top-right-radius: var(--me-rounding);
         border-bottom-right-radius: var(--me-rounding);
+        -webkit-app-region: no-drag;
+
         .content-1jQy2l::before {
             display: none;
         }

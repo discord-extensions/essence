@@ -1,4 +1,6 @@
-:root {
+:root,
+.theme-dark,
+.theme-light {
     --me-rounding: 6px;
     --me-separation: 16px;
 
@@ -13,10 +15,10 @@
     --me-red: 0, calc(var(--saturation-factor,1)*90%), 60%;
 
     /* [ BASE COLORS ] */
-    --background-primary: #1B1B2D;
-    --background-secondary: #232339;
-    --background-secondary-alt: #2D2D49;
-    --background-tertiary: #11111D;
+    --background-primary: #1B1B2D !important;
+    --background-secondary: #232339 !important;
+    --background-secondary-alt: #2D2D49 !important;
+    --background-tertiary: #11111D !important;
     --background-floating: var(--background-secondary);
     --input-background: var(--background-secondary-alt);
     --channeltextarea-background: var(--input-background);
