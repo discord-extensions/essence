@@ -1,13 +1,15 @@
 :root {
-    --me-rounding: 8px;
+    --me-rounding: 6px;
     --me-separation: 16px;
 
     /* [ ACCENT COLOS ] */
-    --me-accent: ;
+    --me-accent: 250, calc(var(--saturation-factor,1)*90%), 60%;
     --me-pink: 340, calc(var(--saturation-factor,1)*90%), 60%;
     --me-pink-text: 340, calc(var(--saturation-factor,1)*90%), 15%;
+    --me-blue: 209, calc(var(--saturation-factor,1)*90%), 60%;
     --me-green: 140, calc(var(--saturation-factor,1)*90%), 60%;
     --me-green-text: 140, calc(var(--saturation-factor,1)*90%), 15%;
+    --me-orange: 22, calc(var(--saturation-factor,1)*90%), 60%;
 
     /* [ BASE COLORS ] */
     --background-primary: #1B1B2D;
@@ -17,4 +19,13 @@
     --background-floating: hsl(var(--me-pink));
     --scroller-background: var(--background-secondary);
     --scroller-thumb: #F53D7A;
+
+    --text-normal: #EFEFF5;
+    --text-muted: #BFBFD9;
+    --interactive-normal: #8F8FA3;
+    --interactive-active: var(--text-normal);
+    --interactive-muted: #67677E;
+    --channels-default: #8F8FA3;
+    --channel-icon: var(--channels-default);
+
 }
