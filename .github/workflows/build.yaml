@@ -22,16 +22,7 @@ jobs:
         uses: gha-utilities/sass-build@v0.4.9
         with:
           source: src/source.scss
-          destination: /tmp/essence/source.css
-
-      - name: Checkout destination Git branch
-        uses: actions/checkout@v2
-        with:
-          ref: build
-          fetch-depth: 1
-
-      - name: Move compiled CSS to path within build branch
-        run: mv /tmp/essence/source.css src/
+          destination: src/source.css
 
       - name: Add and Commit changes to build branch
         run: |
