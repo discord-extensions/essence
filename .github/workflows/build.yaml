@@ -1,0 +1,58 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_css:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source Git branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+          fetch-depth: 10
+          submodules: true
+
+      - name: Make destination directory for compiled CSS
+        run: mkdir -vp /tmp/essence/assets/css
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.4.9
+        with:
+          source: theme.scss
+          destination: /tmp/essence/assets/css/theme.css
+
+      - name: Checkout destination Git branch
+        uses: actions/checkout@v2
+        with:
+          ref: build
+          fetch-depth: 1
+
+      - name: Move compiled CSS to path within pr-pages branch
+        run: mv /tmp/essence/assets/css assets/
+
+      - name: Add and Commit changes to pr-pages branch
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add assets/css/*
+          git commit -m 'Updates compiled CSS files'
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: pr-pages
+
+      - name: Initialize Pull Request
+        uses: gha-utilities/init-pull-request@v0.0.4
+        with:
+          pull_request_token: ${{ secrets.GITHUB_TOKEN }}
+          head: pr-pages
+          base: gh-pages
+          title: "Updates site files from latest Actions build"
+          body: >
+            Perhaps a multi-line description
+            about latest features and such.
