@@ -1,5 +1,5 @@
 :root {
-    --essence-version: "1.0.0";
+    --essence-version: "1.0.1";
     /* || Channel Items */
     --container-rounding: 6px;
     --pill-default-height: 20px;
@@ -44,6 +44,8 @@
     --channeltextarea-background: var(--background-tertiary);
     --modal-background: var(--essence-modals);
     --modal-footer-background: var(--essence-modals);
+    --background-mobile-primary: var(--background-primary);
+    --background-mobile-secondary: var(--background-secondary);
     --background-modifier-accent: rgb(var(--essence-modifier-rgb));
     --background-modifier-accent-alt: rgba(var(--essence-modifier-rgb), 0.54);
     --background-modifier-hover: rgba(var(--essence-modifier-rgb), 0.45);
@@ -2445,6 +2447,22 @@
 .chat-2ZfjoI .emptyStateContainer-xWOMPJ {
         background-color: var(--background-tertiary);
     }
+}
+
+.characterBackground-1BPOOJ {
+    -webkit-app-region: no-drag;
+}
+.characterBackground-1BPOOJ .artwork-L5TAwQ {
+    width: calc(100% - 36px);
+    height: calc(100% - 36px);
+    margin: 18px;
+    min-height: unset;
+    border-radius: var(--essence-rounding);
+}
+
+.platform-win .artwork-L5TAwQ {
+    margin-top: 40px;
+    height: calc(100% - 56px);
 }
 
 #app-mount .container-2cd8Mz {

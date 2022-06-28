@@ -1,4 +1,4 @@
-<img src="assets/previews/theme-default-mix.png">
+<img src="https://discord-extensions.github.io/essence/assets/previews/theme-default-mix.png">
 <font size="2">For more previews, check out the previews.md file.</font>
 
 # Downloads
@@ -9,9 +9,9 @@ git clone https://github.com/discord-extensions/essence
 ```
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
-**Submission currently pending, download available soon..**
-<!-- - [Direct Download]()
-- [Source](https://discord-extensions.github.io/essence/src/source.css) -->
+- [Direct Download](https://betterdiscord.app/Download?id=733)
+- [Site Page](https://betterdiscord.app/theme/Essence)
+- [Source](https://discord-extensions.github.io/essence/src/source.css)
 
 ### **Stylus**
 1. Install the browser extension for your respective browser.
