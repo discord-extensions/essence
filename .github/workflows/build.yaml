@@ -1,38 +1,38 @@
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  build_css:
-    runs-on: ubuntu-latest
+# jobs:
+#   build_css:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout source Git branch
-        uses: actions/checkout@v2
-        with:
-          ref: main
-          fetch-depth: 10
-          submodules: true
+#     steps:
+#       - name: Checkout source Git branch
+#         uses: actions/checkout@v2
+#         with:
+#           ref: main
+#           fetch-depth: 10
+#           submodules: true
 
-      - name: Make destination directory for compiled CSS
-        run: mkdir -vp /tmp/essence/
+#       - name: Make destination directory for compiled CSS
+#         run: mkdir -vp /tmp/essence/
 
-      - name: Compile CSS from SCSS files
-        uses: gha-utilities/sass-build@v0.4.9
-        with:
-          source: src/source.scss
-          destination: src/source.css
+#       - name: Compile CSS from SCSS files
+#         uses: gha-utilities/sass-build@v0.4.9
+#         with:
+#           source: src/source.scss
+#           destination: src/source.css
 
-      - name: Add and Commit changes to build branch
-        run: |
-          git config --local user.email 'action@github.com'
-          git config --local user.name 'GitHub Action'
-          git add .
-          git commit -m 'Update compiled CSS files'
+#       - name: Add and Commit changes to build branch
+#         run: |
+#           git config --local user.email 'action@github.com'
+#           git config --local user.name 'GitHub Action'
+#           git add .
+#           git commit -m 'Update compiled CSS files'
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: build
+#       - name: Push changes
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           branch: build
