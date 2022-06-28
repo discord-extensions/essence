@@ -30,10 +30,10 @@ jobs:
           ref: build
           fetch-depth: 1
 
-      - name: Move compiled CSS to path within pr-pages branch
+      - name: Move compiled CSS to path within build branch
         run: mv /tmp/essence/assets/css assets/
 
-      - name: Add and Commit changes to pr-pages branch
+      - name: Add and Commit changes to build branch
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
