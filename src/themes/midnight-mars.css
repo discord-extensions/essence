@@ -3,7 +3,7 @@
     --essence-theme-name: 'Midnight Mars';
     --essence-theme-gradient: linear-gradient(70deg, #C94B4B, #4B134F);
     --essence-theme-gradient-animation: defaultGradient 3s ease infinite;
-    --essence-app-background-image: url('https://raw.githubusercontent.com/discord-extensions/essence/dev/assets/theme-bgs/midnight-mars.png');
+    --essence-app-background-image: url('https://discord-extensions.github.io/essence/assets/theme-bgs/midnight-mars.png');
     --essence-rounding: 6px;
 }
 
