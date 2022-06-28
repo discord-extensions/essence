@@ -1,0 +1,41 @@
+@use 'channel';
+@use 'server';
+@use 'user';
+
+.layer-86YKbF {
+    .cardPrimaryEditable-2mz_3i {
+        border-color: var(--background-tertiary);
+        background-color: var(--essence-card);
+        .iconWrapper-1sOtkE {
+            background-color: var(--background-primary);
+        }
+    }
+    
+    .bar-1Bhnl9:not(.microphone-2RrrW7, .speaking-2Crrvt),
+    .markDash-yk2kJ- {
+        background-color: var(--background-secondary-alt);
+    }
+
+    .standardSidebarView-E9Pc3j {
+        background-color: var(--background-tertiary);
+        .sidebarRegion-1VBisG {
+            margin: 15px;
+            border-radius: var(--essence-rounding);
+            background-color: var(--background-primary);
+            .sidebarRegionScroller-FXiQOh {
+                background-color: transparent;
+                .sidebar-nqHbhN {
+                    padding: 25px 6px 25px 12px;
+                }
+            }
+        }
+        .contentRegion-3HkfJJ {
+            margin: 15px 15px 15px 0;
+            border-radius: var(--essence-rounding);
+            background-color: var(--background-primary);
+            .contentRegionScroller-2_GT_N {
+                background-color: transparent;
+            }
+        }
+    }
+}

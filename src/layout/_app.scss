@@ -1,0 +1,28 @@
+.appMount-2yBXZl {
+    background-color: var(--essence-app-background);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: var(--essence-app-background-image, none);
+    -webkit-app-region: drag;
+}
+.app-2CXKsg {
+    background-color: transparent;
+    .bg-1QIAus {
+        background-color: transparent;
+    }
+    .layers-OrUESM {
+        margin: 18px;
+        border-radius: var(--essence-rounding);
+        box-shadow: var(--essence-app-background-shadow);
+        background-color: var(--background-tertiary);
+        -webkit-app-region: no-drag;
+        .layer-86YKbF {
+            transform: none !important;
+            will-change: unset;
+        }
+    }
+}
+.platform-win .layers-OrUESM {
+    margin-top: 0;
+}

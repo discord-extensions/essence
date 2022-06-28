@@ -1,0 +1,35 @@
+.wrapper-1gVUIN {
+    // || Main
+    &.minimum-fXpVNc {
+        margin-bottom: 10px;
+        .callContainer-HtHELf {
+            background-color: var(--background-primary);
+        }
+    }
+    .callContainer-HtHELf {
+        border-radius: var(--essence-rounding);
+    }
+    .tile-2TcwiO, .root-1Emen5 {
+        background-color: var(--background-primary);
+    }
+
+    // || Buttons
+    .colorable-3rVGna.primaryDark-2UJt1G {
+        background: var(--button-secondary-background);
+        &:hover {
+            background: var(--button-secondary-background-hover);
+        }
+        &:active {
+            background: var(--button-secondary-background-active);
+        }
+    }
+    .colorable-3rVGna.red-3T8maV {
+        background: var(--button-red-background);
+        &:hover {
+            background: var(--button-red-background-hover);
+        }
+        &:active {
+            background: var(--button-red-background-active);
+        }
+    }
+}

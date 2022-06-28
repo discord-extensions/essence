@@ -1,0 +1,25 @@
+/**
+    * @name Essence
+    * @description A smooth, rounded theme.
+    * @author LuckFire#4800
+    * @version 1.0.0
+    *
+    * @website https://github.com/discord-extensions
+    * @source https://github.com/discord-extensions/essence
+    * @invite vYdXbEzqDs
+**/
+
+/* || ➕ Addons */
+@import url('https://discord-extensions.github.io/essence/src/vendors/friends-grid.css');
+@import url('https://discord-extensions.github.io/essence/src/vendors/iconsax-discord.css');
+
+/* || 🎨 Theme Palettes
+ * At least one theme palette must be enabled for the theme to properly display.
+ * For theme previews, please check out the preview markdown file on the repo.
+ */
+@import url('https://discord-extensions.github.io/essence/src/themes/essence-default.css');
+/* @import url('https://discord-extensions.github.io/essence/src/themes/midnight-mars.css'); */
+/* @import url('https://discord-extensions.github.io/essence/src/themes/nord.css'); */
+
+/* || 📢 Source */
+@import url('https://discord-extensions.github.io/essence/src/source.css');

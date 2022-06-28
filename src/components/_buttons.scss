@@ -1,0 +1,18 @@
+// || Brand
+.colorBrand-I6CyqQ {
+    &.lookFilled-yCfaCM {
+        background-color: var(--button-brand-background);
+        &[disabled] {
+            background-color: var(--button-brand-background-disabled);
+        }
+        &:hover {
+            background-color: var(--button-brand-background-hover);
+        }
+        &:active {
+            background-color: var(--button-brand-background-active);
+        }
+    }
+    &.lookInverted-2mDUMi {
+        color: var(--button-brand-background);
+    }
+}

@@ -1,0 +1,36 @@
+@use 'modals/events';
+@use 'modals/keybinds';
+@use 'modals/account-switcher';
+@use 'modals/message-delete';
+@use 'modals/quick-switcher';
+@use 'modals/reactions';
+@use 'modals/server-boost';
+@use 'modals/server-createjoin';
+@use 'modals/server-invited';
+@use 'modals/server-verify';
+@use 'modals/stream';
+@use 'modals/user-profile';
+
+#app-mount .root-g14mjS {
+    border-radius: var(--essence-rounding);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    background-color: var(--modal-background);
+    .header-1sd0RU, .separator-2lLxgC {
+        margin: 0 15px;
+        padding: 16px 0;
+        border-bottom: 1px solid var(--background-modifier-accent);
+        box-shadow: none;
+        background-color: var(--modal-background);
+        .iconButton-2rHy7x {
+            right: 0;
+        }
+    }
+    .footer-31IekZ, .footer-VCsJQY {
+        margin: 0 15px;
+        padding: 16px 0;
+        border-top: 1px solid var(--background-modifier-accent);
+        box-shadow: none;
+        background-color: var(--modal-background);
+    }
+}

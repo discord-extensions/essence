@@ -1,0 +1,13 @@
+.container-ZMc96U {
+    margin-bottom: 10px;
+    border-radius: var(--essence-rounding);
+    .container-2oNtJn, .searchBar-jGtisZ {
+        background-color: var(--input-background);
+    }
+    .headerBarInner-2pcZSM::after {
+        background: linear-gradient(180deg,rgba(50,52,58,0) 0, var(--background-primary));
+    }
+    .updateIconForeground-2V_zo4 {
+        fill: var(--status-positive);
+    }
+}

@@ -1,0 +1,118 @@
+#app-mount .root-g14mjS {
+    .topSection-13QKHs {
+        header {
+            .banner-1YaD3N {
+                height: 240px;
+                margin: 8px;
+                border-radius: var(--essence-rounding);
+                .premiumIconWrapper-32h0Ri {
+                    right: unset;
+                    left: 15px;
+                    .base-3IDx3L {
+                        background-color: rgba(0, 0, 0, 0.3) !important;
+                    }
+                }
+            }
+            .header-S26rhB {
+                display: flex;
+                flex-direction: column;
+                .avatar-3QF_VA {
+                    left: 234px;
+                    border-width: 6px;
+                    border-radius: calc(var(--avatar-default-rounding) + 1%);
+                }
+                .headerTop-1PNKck {
+                    flex-direction: column;
+                    top: 104px;
+                    right: 0;
+                    left: 0;
+                    .badgeList-2aoHPw {
+                        display: flex;
+                        justify-content: center;
+                        position: relative;
+                        bottom: 9px;
+                        width: 100%;
+                        padding-right: 0;
+                    }
+                    .relationshipButtons-3ByBpj {
+                        position: fixed;
+                        top: 263px;
+                        right: 15px;
+                        .additionalActionsIcon-3Cy8UU {
+                            position: fixed;
+                            top: 20px;
+                            right: 22px;
+                            width: 32px;
+                            height: 32px;
+                            min-width: unset;
+                            min-height: unset;
+                            border-radius: 50px;
+                            background-color: rgba(0, 0, 0, 0.3);
+                            transition: all 150ms ease;
+                            &:hover {
+                                background-color: rgba(0, 0, 0, 0.6);
+                            }
+                            [d="M24 0v24H0V0z"] {
+                                display: none;
+                            }
+                            path {
+                                d: path('M7 12.001C7 10.8964 6.10457 10.001 5 10.001C3.89543 10.001 3 10.8964 3 12.001C3 13.1055 3.89543 14.001 5 14.001C6.10457 14.001 7 13.1055 7 12.001ZM14 12.001C14 10.8964 13.1046 10.001 12 10.001C10.8954 10.001 10 10.8964 10 12.001C10 13.1055 10.8954 14.001 12 14.001C13.1046 14.001 14 13.1055 14 12.001ZM19 10.001C20.1046 10.001 21 10.8964 21 12.001C21 13.1055 20.1046 14.001 19 14.001C17.8954 14.001 17 13.1055 17 12.001C17 10.8964 17.8954 10.001 19 10.001Z');
+                                transform: scale(1);
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .warningCircleIcon-1YXIHu {
+                        position: fixed;
+                        align-self: unset;
+                        top: 15px;
+                        left: 15px;
+                    }
+                }
+            }
+            .nameTag-2Nlmsy {
+                display: flex;
+                justify-content: center;
+                margin-top: 69px;
+            }
+            .customStatusActivity-WKWGD- {
+                display: flex;
+                justify-content: center;
+                margin-top: 35px;
+                padding-bottom: 0;
+            }
+        }
+        .tabBarContainer-sCZC4w {
+            margin: 0 20px;
+            padding-left: 0;
+            border-bottom-color: var(--background-modifier-accent-alt);            
+            .tabBar-2hXqzU {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .tabBarItem-30Te4- {
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .body-1Ukv50 {
+        .userInfoSection-2u2hir + .userInfoSection-2u2hir {
+            border-top-color: var(--background-modifier-accent-alt);
+        }
+        .connectedAccount-1xKpli {
+            border-color: var(--background-modifier-accent-alt);
+        }
+        &.noTabBar-2Q-iE_ {
+            border: none;
+            .infoScroller-1QMpon {
+                margin-top: 18px;
+                .userInfoSection-2u2hir:first-child {
+                    border-top: 1px solid var(--background-modifier-accent-alt);
+                }
+            }
+        }
+    }
+}

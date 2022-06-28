@@ -1,0 +1,209 @@
+.sidebar-1tnWFu {
+    margin: 10px 0;
+    border-radius: var(--essence-rounding) !important;
+    background-color: var(--background-primary);
+    .container-1NXEtd, .privateChannels-oVe7HL, .scroller-WSmht3 {
+        background-color: transparent;
+    }
+    .container-1NXEtd {
+        .container-1-ERn5 {
+            // || Server Name
+            .header-3OsQeK {
+                margin: 0 15px;
+                padding: 12px 0 9px 0;
+                box-shadow: none;
+                border-bottom: 1px solid var(--background-modifier-accent);
+                background-color: transparent;
+                .communityInfoContainer-1dMVpU {
+                    position: absolute;
+                    top: 61px;
+                    right: 0px;
+                }
+                .communityInfoPill-2Mll66 {
+                    border-radius: 7px;
+                    background-color: hsl(var(--essence-accent-brand));
+                }
+            }
+            // || Server Banner
+            .animatedContainer-2laTjx {
+                top: 46px;
+                width: 210px;
+                height: 118px;
+                margin: 15px;
+                border-radius: var(--essence-rounding);
+                pointer-events: none;
+                .bannerImg-2PzH6z {
+                    width: 210px;
+                    height: 118px;
+                }
+            }
+            &.bannerVisible-Vkyg1I ~ .scroller-1ox3I2 {
+                margin-top: 49px;
+                .container-2giAcK {
+                    margin-bottom: -12px;
+                }
+            }
+        }
+        // || Server Stage
+        .container-2Y4CWj {
+            margin: 0 15px;
+            .channelNotice-K4UfZY {
+                margin: 0;
+                padding: 6px 0 15px 0;
+                border-bottom: 1px solid var(--background-modifier-accent);
+            }
+        }
+        // || Server Boost Goal
+        .container-2giAcK {
+            margin-top: -8px;
+            margin-right: 7px;
+            margin-left: 15px;
+            .divider-3qUeLQ {
+                margin-top: 15px;
+                background-color: var(--background-modifier-accent);
+            }
+            .textArea-7J7xQx {
+                margin: 0;
+            }
+            .progressBarContainer-1efroK {
+                width: calc(100% - 5px);
+                margin: 0;
+                margin-top: 2px;
+            }
+        }
+    }
+    // || Channel Items
+    .containerDefault-YUSmu3, .containerDragBefore-1s5Qg6 {
+        overflow: hidden;
+        .wrapper-NhbLHG .content-1gYQeQ {
+            padding-left: 0;
+            border-radius: var(--container-rounding);
+            &::before {
+                content: '';
+                position: relative;
+                min-width: 4px;
+                height: 0;
+                margin-left: 5px;
+                border-radius: 25px;
+                transition: all 250ms ease;
+                background-color: var(--pill-default-background);
+            }
+            &:hover::before {
+                height: var(--pill-hover-height);
+                margin-right: 7px;
+            }
+            &:active::before {
+                height: var(--pill-default-height);
+                margin-right: 7px;
+            }
+            .channelInfo-3jN1ay {
+                .users-2JoyGL {
+                    background-color: var(--background-secondary);
+                }
+            }
+        }
+        .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ::before {
+            height: var(--pill-default-height);
+            margin-right: 7px;
+        }
+        .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ {
+            background-color: var(--background-modifier-active);
+            &::before {
+                height: var(--pill-default-height);
+                margin-right: 7px;
+                background-color: var(--pill-connected-background);
+            }
+        }
+        .modeUnread-3Cxepe {
+            .unreadRelevant-2f-VSK {
+                display: none;
+            }
+            .content-1gYQeQ {
+                &::before {
+                    height: var(--pill-unread-height);
+                    margin-right: 7px;
+                    background-color: var(--pill-unread-background);
+                }
+                &:hover::before {
+                    background-color: var(--pill-unread-background);
+                }
+            }
+        }
+    }
+    // || Private Search
+    .searchBar-3TnChZ {
+        margin: 0 15px;
+        border-bottom: 1px solid var(--background-modifier-accent);
+        box-shadow: none;
+        .searchBarComponent-3N7dCG {
+            width: calc(100% + 30px);
+            margin: 0 -15px;
+            background-color: var(--input-background);
+        }
+    }
+    .container-32HW5s {
+        overflow: hidden;
+        .interactive-1vLZ_I {
+            border-radius: var(--container-rounding);
+            &::before {
+                content: '';
+                position: relative;
+                min-width: 4px;
+                height: 0;
+                margin-left: 5px;
+                border-radius: 25px;
+                transition: all 250ms ease;
+                background-color: var(--pill-default-background);
+            }
+            &:hover::before {
+                height: var(--pill-hover-height);
+                margin-right: 7px;
+            }
+            &:active,
+            &.interactiveSelected-29CP8y {
+                &::before {
+                    height: var(--pill-default-height);
+                    margin-right: 7px;
+                }
+            }
+            .layout-1LjVue {
+                padding-left: 1px;
+            }
+        }
+    }
+    // || Voice
+    .avatar-3FKimL {
+        border-radius: 37%;
+    }
+    .liveShapeRound-2Tgi2d {
+        background-color: var(--status-danger) !important;
+    }
+    // || User Area
+    .panels-3wFtMD {
+        margin: 0 15px;
+        border-top: 1px solid var(--background-modifier-accent);
+        background-color: transparent;
+        .container-YkUktl {
+            margin: 0 -15px;
+        }
+        .panel-2ZFCRb,
+        .container-1zzFcN {
+            margin: 0 -15px;
+            border: none;
+        }
+        // || VC Buttons
+        .buttonColor-3bP3fX {
+            color: #fff;
+            background-color: var(--button-secondary-background);
+            &.fauxDisabled-8w0hCZ {
+                background-color: var(--button-secondary-background-disabled);
+            }
+            &:hover {
+                background-color: var(--button-secondary-background-hover);
+            }
+            &:active {
+                background-color: var(--button-secondary-background-active);
+            }
+        }
+    }
+}

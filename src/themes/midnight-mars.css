@@ -1,0 +1,75 @@
+:root {
+    --essence-theme-author: 'LuckFire#4800';
+    --essence-theme-name: 'Midnight Mars';
+    --essence-theme-gradient: linear-gradient(70deg, #C94B4B, #4B134F);
+    --essence-theme-gradient-animation: defaultGradient 3s ease infinite;
+    --essence-app-background-image: url('https://raw.githubusercontent.com/discord-extensions/essence/dev/assets/theme-bgs/midnight-mars.png');
+    --essence-rounding: 6px;
+}
+
+.theme-dark, .theme-light {
+    /* || Main Colors */
+    --essence-primary: #2C2136;
+    --essence-secondary: #3A2A46;
+    --essence-alt: #473456;
+    --essence-tertiary: #1F1726;
+    --essence-app-background: #120D16;
+    --essence-app-background-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+    --essence-popouts: #18121C;
+    --essence-modals: #271D2F;
+    --essence-bgaccent: #362942;
+    --essence-inputs: #221929;
+    --essence-card: var(--essence-tertiary);
+    --essence-scroller-thumb: hsl(var(--essence-accent-brand));
+    --essence-scroller-track: #3A2A46;
+
+    /* || Text Colors */
+    --essence-text-primary: #E8E2EE;
+    --essence-text-secondary: #A89CB2;
+    --essence-text-muted: #9A91A1;
+    --essence-text-channels: #9E96A4;
+
+    /* || Interactive Colors */
+    --essence-modifier-rgb: 63, 47, 76;
+    --essence-interactive-primary: #E8E2EE;
+    --essence-interactive-secondary: #B2A9BC;
+    --essence-interactive-alt: #C0B7C8;
+    --essence-interactive-muted: #635A69;
+
+    /* || Accent Colors - Adding calc(var(saturation-factor)*X%) is not required. */
+    --essence-accent-brand-saturated: 281, calc(var(--saturation-factor, 1) * 31%), 90%;
+    --essence-accent-brand: 281, calc(var(--saturation-factor, 1) * 48%), 64%;
+    --essence-accent-brand-alt: 281, calc(var(--saturation-factor, 1) * 33%), 22%;
+    --essence-accent-red: 360, calc(var(--saturation-factor, 1) * 53%), 60%;
+    --essence-accent-orange: 11, calc(var(--saturation-factor, 1) * 53%), 60%;
+    --essence-accent-yellow: 43, calc(var(--saturation-factor, 1) * 53%), 60%;
+    --essence-accent-green: 126, calc(var(--saturation-factor, 1) * 50%), 62%;
+    --essence-accent-green-alt: 126, calc(var(--saturation-factor, 1) * 30%), 26%;
+    --essence-accent-blue: 216, calc(var(--saturation-factor, 1) * 53%), 60%;
+    --essence-accent-purple: 266, calc(var(--saturation-factor, 1) * 50%), 65%;
+    --essence-accent-grey: 245, 11%, 52%;
+
+    /* || Button Colors */
+    --button-brand-background: hsl(var(--essence-accent-brand));
+    --button-brand-background-hover: hsl(281, calc(var(--saturation-factor, 1) * 34%), 48%);
+    --button-brand-background-active: hsl(281, calc(var(--saturation-factor, 1) * 34%), 41%);
+    --button-brand-background-disabled: hsl(281, calc(var(--saturation-factor, 1) * 43%), 59%);
+    
+    --button-red-background: hsl(var(--essence-accent-red));
+    --button-red-background-hover: hsl(360, calc(var(--saturation-factor, 1) * 43%), 52%);
+    --button-red-background-active: hsl(360, calc(var(--saturation-factor, 1) * 43%), 43%);
+    --button-red-background-disabled: hsl(360, calc(var(--saturation-factor, 1) * 45%), 59%);
+
+    --button-green-background: hsl(126, calc(var(--saturation-factor, 1) * 39%), 55%);
+    --button-green-background-hover: hsl(126, calc(var(--saturation-factor, 1) * 29%), 42%);
+    --button-green-background-active: hsl(126, calc(var(--saturation-factor, 1) * 29%), 33%);
+    --button-green-background-disabled: hsl(126, calc(var(--saturation-factor, 1) * 31%), 56%);
+
+    --button-grey-background: hsl(var(--essence-accent-grey));
+    --button-grey-background-hover: #918EA6;
+    --button-grey-background-active: #ACA9BE;
+    --button-grey-background-disabled: #89869D;
+}
+
+
+/* || Theme Specific Changes - Custom changes for the theme should go below this line. */

@@ -1,0 +1,72 @@
+#app-mount .layer-2aCOJ3 {
+    // || Content Background
+    .contentWrapper-3vHNP2, .emojiPicker-6YCk8a, .container-3u7RcY {
+        background-color: var(--background-floating);
+    }
+    .contentWrapper-3vHNP2 {
+        border-radius: var(--essence-rounding);
+        box-shadow: var(--elevation-stroke), var(--elevation-high);
+        -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    }
+    .inspector-DFKXwB {
+        padding-right: 0;
+        margin-left: -15px;
+        border-top: 1px solid var(--background-modifier-accent-alt);
+        background-color: var(--background-floating);
+    }
+    .wrapper-1NNaWG, .wrapper-22rqw6 {
+        background-color: var(--background-floating);
+    }
+    .unicodeShortcut-3N8oDe, .standardStickerShortcut-ObSns3 {
+        bottom: -1px;
+        box-shadow: 15px -1px 0px var(--background-modifier-accent-alt);
+    }
+    // || Headers
+    .header-11eigE, .header-uVCAlo, .header-2TLOnc {
+        box-shadow: none;
+        padding-right: 0;
+        padding-bottom: 10px;
+        padding-left: 0;
+        margin: 0 15px;
+        border-bottom: 1px solid var(--background-modifier-accent-alt);
+    }
+    .header-11eigE {
+        padding-right: 6px;
+    }
+    // || Search Bars
+    .container-2oNtJn, .container-1SX9VC .scrollerBase-_bVAAt {
+        // --input-background: var(--essence-inputs)
+        background-color: var(--input-background);
+    }
+    // || Nav Items
+    .navList-YSb9UB {
+        .navItem-3McpmW {
+            color: var(--interactive-normal);
+            &.navButtonActive-1EqC5l {
+                color: var(--interactive-active);
+                background-color: var(--background-modifier-selected);
+            }
+            &:hover {
+                background-color: var(--background-modifier-hover);
+            }
+            &:active {
+                background-color: var(--background-modifier-active);
+            }
+        }
+    }
+    // || Loading Content
+    .imageLoading-2uloYN {
+        border-radius: 30%;
+        background-color: var(--background-accent);
+        background-image: none;
+    }
+    // || Favorites
+    .result-pzZrwj {
+        .categoryFadeBlurple-1l49_Q {
+            background-color: hsl(var(--essence-accent-brand), 80%);
+        }
+        &:hover::after {
+            box-shadow: inset 0 0 0 2px hsl(var(--essence-accent-brand)),inset 0 0 0 3px var(--background-floating);
+        }
+    }
+}

@@ -1,0 +1,93 @@
+#app-mount .layer-2aCOJ3 .userPopout-2j1gM4 {
+    .headerNormal-3Zn_yu {
+        margin: 8px;
+        .popoutBanner-3cqRD9 {
+            height: 120px;
+        }
+        .popoutBanner-3cqRD9, .popoutBannerPremium-3i5EEI {
+            width: 100%;
+            border-radius: var(--essence-rounding);
+        }
+    }
+    .avatarWrapper-eenWra {
+        top: 79px;
+        left: 104px;
+        .wrapper-1VLyxH {
+            border-radius: calc(var(--avatar-default-rounding) + 2%);
+        }
+        .avatarHint-k7pYop {
+            border-radius: var(--avatar-default-rounding);
+            border-bottom-right-radius: 0;
+            foreignObject {
+                        mask: url('data:image/svg+xml;charset=utf-8,<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H80V58.9989C77.493 57.1158 74.3768 56 71 56C62.7157 56 56 62.7157 56 71C56 74.3768 57.1158 77.493 58.9989 80H0V0Z" fill="white"/></svg>');
+                -webkit-mask: url('data:image/svg+xml;charset=utf-8,<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H80V58.9989C77.493 57.1158 74.3768 56 71 56C62.7157 56 56 62.7157 56 71C56 74.3768 57.1158 77.493 58.9989 80H0V0Z" fill="white"/></svg>');
+            }
+        }
+    }
+    .headerTop-3GPUSF {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 39px;
+        .nickname-t08Mck {
+            display: flex;
+            justify-content: center;
+        }
+        .headerText-1-WmDq {
+            padding-bottom: 14px;
+        }
+        .profileBadges-2pItdR {
+            position: relative;
+            justify-content: center;
+            top: 0;
+            right: 1px;
+            width: 100%;
+            max-width: unset;
+            margin-top: -10px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--background-modifier-accent-alt);
+        }
+    }
+    .body-2wLx-E {
+        .customStatus-3XAoF9 {
+            margin-bottom: 16px;
+            padding-top: 24px;
+            &::before {
+                position: absolute;
+                content: 'STATUS';
+                top: 0;
+                left: 16px;
+                margin-bottom: 8px;
+                color: var(--header-secondary);
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 16px;
+                text-transform: uppercase;
+            }
+        }
+        .divider-1wtgZ3 {
+            display: none;
+        }
+        .userInfoSection-3her-v {
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--background-modifier-accent-alt);
+        }
+        .activity-1gTu-L {
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--background-modifier-accent-alt);
+        }
+        .role-2TIOKu {
+            background-color: var(--background-primary);
+        }
+    }
+    .footer-3naVBw {
+        margin: 0 11px;
+        padding-top: 16px;
+        padding-right: 0;
+        padding-left: 0;
+        border-top: 1px solid var(--background-modifier-accent-alt);
+        .input-2z42oC {
+            background-color: var(--input-background);
+        }
+    }
+}

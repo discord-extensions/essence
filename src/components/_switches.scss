@@ -1,0 +1,14 @@
+.container-2nx-BQ {
+    background-color: hsl(var(--essence-accent-grey)) !important;
+    transition: all 225ms ease;
+    .slider-32CRPX {
+        svg {
+            display: none;
+        }
+    }
+    @for $i from 131 through 162 {
+        &[style^="opacity: 1; background-color: hsl(#{$i}"] {
+            background-color: hsl(var(--essence-accent-brand)) !important;
+        }
+    }
+}

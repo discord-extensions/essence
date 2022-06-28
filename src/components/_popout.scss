@@ -1,0 +1,34 @@
+@use 'popouts/add-game';
+@use 'popouts/autocomplete';
+@use 'popouts/color-picker';
+@use 'popouts/context-menu';
+@use 'popouts/drawer-wrapper';
+@use 'popouts/inbox';
+@use 'popouts/member-roles';
+@use 'popouts/noise-suppression';
+@use 'popouts/permissions-autocomplete';
+@use 'popouts/pinned';
+@use 'popouts/search';
+@use 'popouts/stream-preview';
+@use 'popouts/threads';
+@use 'popouts/user-details';
+
+#app-mount .layer-2aCOJ3 {
+    position: fixed !important;
+    border-radius: var(--essence-rounding);
+    .header-1w9Q93, .header-3_zmOb {
+        border-bottom: 1px solid var(--background-modifier-accent-alt);
+        background-color: var(--background-floating);
+    }
+    .scrollerBase-_bVAAt {
+        background-color: var(--background-floating);
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    .footer-5ji8u1 {
+        margin: 0 15px;
+        border-top: 1px solid var(--background-modifier-accent-alt);
+        background-color: var(--background-floating);
+    }
+}

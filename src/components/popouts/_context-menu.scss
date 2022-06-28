@@ -1,0 +1,127 @@
+#app-mount .layer-2aCOJ3 {
+    // || Main
+    .menu-1QACrS {
+        overflow: hidden;
+        .scroller-1bVxF5 {
+            padding: 4px 0;
+            border-radius: var(--essence-rounding);
+            &::-webkit-scrollbar {
+                width: 0;
+            }
+            .wrapper--nA0oy {
+                padding: 6px 10px 4px 10px;
+                .button-1zW0-r {
+                    border-radius: var(--avatar-default-rounding);
+                    background-color: transparent;
+                    &:hover {
+                        background-color: var(--background-modifier-hover);
+                    }
+                }
+            }
+            .item-1OdjEX {
+                padding: 8px 16px;
+                border-radius: 0;
+                &.colorDefault-CDqZdO:not(.colorDanger-3n-KnP, .hideInteraction-2jPGL_) {
+                    &.focused-3qFvc8, &:hover {
+                        background-color: var(--button-brand-background);
+                    }
+                    &:active {
+                        background-color: var(--button-brand-background-active);
+                    }
+                }
+                &.colorBrand-3cPPsm {
+                    color: var(--text-brand);
+                    &.focused-3qFvc8, &:hover, &:active {
+                        color: #fff;
+                    }
+                }
+                .labelContainer-2vJzYL, .sliderContainer-2nidiS {
+                    padding: 0;
+                }
+            }
+            .separator-1So4YB {
+                display: none;
+            }
+            .submenuContainer-3EVTeH {
+                padding: 0;
+                .layer-2aCOJ3 {
+                    margin: 0 -8px;
+                }
+            }
+
+        }
+    }
+
+    // || Status Picker
+    #status-picker {
+        .statusItem-2hiCNB {
+            padding: 0;
+            foreignObject {
+                mask: none;
+                .status-2DiCMd {
+                    border-radius: 50%;
+                }
+            }
+        }
+        #status-picker-online {
+            &.focused-3qFvc8, &:hover, &:active {
+                background-color: var(--status-online) !important;
+                .status-2DiCMd {
+                    background-color: white !important;
+                }
+            }
+            .status-2DiCMd {
+                background-color: var(--status-online) !important;
+            }
+        }
+        #status-picker-idle {
+            &.focused-3qFvc8, &:hover, &:active {
+                background-color: var(--status-idle) !important;
+                .status-2DiCMd {
+                    background-color: white !important;
+                }
+            }
+            .status-2DiCMd {
+                background-color: var(--status-idle) !important;
+            }
+        }
+        #status-picker-dnd {
+            &.focused-3qFvc8, &:hover, &:active {
+                background-color: var(--status-dnd) !important;
+                .status-2DiCMd {
+                    background-color: white !important;
+                }
+            }
+            .status-2DiCMd {
+                background-color: var(--status-dnd) !important;
+            }
+        }
+        #status-picker-invisible {
+            &.focused-3qFvc8, &:hover, &:active {
+                background-color: var(--status-offline) !important;
+                .status-2DiCMd {
+                    background-color: white !important;
+                }
+            }
+            .status-2DiCMd {
+                background-color: var(--status-offline) !important;
+            }
+        }
+    }
+
+    // || Region Select
+    .quickSelectPopout-2F0PXw {
+        background-color: var(--background-floating);
+        .quickSelectPopoutOption-2E2UmS {
+            &.selected {
+                background-color: var(--background-modifier-selected);
+            }
+            &:hover {
+                background-color: var(--background-modifier-hover);
+            }
+            &:active {
+                background-color: var(--background-modifier-active);
+            }
+        }
+    }
+}

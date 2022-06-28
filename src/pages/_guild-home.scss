@@ -1,0 +1,23 @@
+.chat-2ZfjoI {
+    .title-31SJ6t.background-fkKrXt {
+        background-color: var(--background-primary);
+    }
+    .card-3x20HF {
+        background-color: var(--background-tertiary);
+    }
+    .container-2Hi7Km,
+    .container-xwOzwi,
+    .emptyStateContainer-xWOMPJ {
+        background-color: var(--background-tertiary);
+    }
+    @media(max-width: 1300px) {
+        .container-xwOzwi,
+        .container-3rZ3XA {
+            background-color: var(--background-primary);
+        }
+        .container-3HMTms,
+        .emptyStateContainer-xWOMPJ {
+            background-color: var(--background-tertiary);
+        }
+    }
+}

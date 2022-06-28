@@ -1,0 +1,14 @@
+/* || ➕ Addons */
+@use 'src/vendors/friends-grid.css';
+@use 'src/vendors/iconsax-discord.css';
+
+/* || 🎨 Theme Palettes
+ * At least one theme palette must be enabled for the theme to properly display.
+ * For theme previews, please check out the preview markdown file on the repo.
+ */
+@use 'src/themes/essence-default.css';
+// @use 'src/themes/midnight-mars.css';
+// @use 'src/themes/nord.css';
+
+/* || 📢 Source */
+@use 'src/source.scss';

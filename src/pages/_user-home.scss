@@ -1,0 +1,114 @@
+#app-mount {
+    // || Friends
+    .container-2cd8Mz {
+        margin: 10px;
+        border-radius: var(--essence-rounding);
+        background-color: transparent;
+        .container-ZMc96U {
+            margin-bottom: 10px;
+            border-radius: var(--essence-rounding);
+            .item-3mHhwr[style] {
+                color: hsl(var(--essence-accent-green-alt)) !important;
+                background-color: hsl(var(--essence-accent-green)) !important;
+                &[aria-selected="true"] {
+                    color: var(--text-normal) !important;
+                    background-color: var(--background-modifier-selected) !important;
+                }
+            }
+        }
+        .tabBody-2dgbAs {
+            border-radius: var(--essence-rounding);
+            background-color: var(--background-primary);
+            &::before {
+                content: none;
+            }
+            .peopleColumn-1wMU14 .searchBar-2aylmZ {
+                background-color: var(--input-background);
+            }
+            .nowPlayingColumn-1eCBCN {
+                .scroller-hE2gWq {
+                    border: none;
+                    .wrapper-2RrXDg {
+                        border: none;
+                        background-color: var(--background-tertiary);
+                        &:hover {
+                            background-color: var(--background-secondary);
+                        }
+                        .inset-SbsSFp {
+                            background-color: var(--background-primary);
+                            .separator-2OaeRP {
+                                margin: 0 15px;
+                                background-color: var(--background-modifier-accent);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // || Library
+    .container-36u7Lw {
+        margin: 10px;
+        background-color: transparent;
+        .container-ZMc96U {
+            margin-bottom: 10px;
+            border-radius: var(--essence-rounding);
+            &::before {
+                content: none;
+            }
+        }
+        .scrollerBase-_bVAAt {
+            border-radius: var(--essence-rounding);
+            background-color: var(--background-primary);
+            .installationPath-2PbaRC {
+                box-shadow: none;
+                border-bottom: 1px solid var(--background-modifier-accent);
+                .defaultIndicator-1AxErs {
+                    background-color: var(--background-accent);
+                }
+                .background-3laMJt {
+                    stroke: var(--background-accent);
+                }
+                .foreground-2JnqVD {
+                    stroke: hsl(var(--essence-accent-brand));
+                }
+            }
+            .hiddenLibraryApplication-lfw1ab {
+                border-bottom-color: var(--background-modifier-accent);
+                &::before {
+                    border-color: transparent;
+                    background-color: var(--background-secondary);
+                }
+            }
+        }
+    }
+    // || Nitro
+    .applicationStore-2nk7Lo {
+        margin: 10px;
+        background-color: transparent;
+        .container-ZMc96U {
+            margin-bottom: 10px;
+            border-radius: var(--essence-rounding);
+        }
+        .scroller-29cQFV {
+            border-radius: var(--essence-rounding);
+            background-color: var(--background-primary);
+            .feature-2IUcBI {
+                background-color: var(--background-secondary);
+            }
+        }
+        
+    }
+    // || Message Requests
+    .container-2YMsb4 {
+        margin: 10px;
+        background-color: transparent;
+        .container-ZMc96U {
+            margin-bottom: 10px;
+            border-radius: var(--essence-rounding);
+        }
+        .tabBody-2YGSMJ {
+            border-radius: var(--essence-rounding);
+        }
+    }
+}

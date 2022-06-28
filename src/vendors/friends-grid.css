@@ -1,0 +1,29 @@
+/* || Friends Grid
+ * This addon is provided by Daniel Klingel under the MIT license.
+ * Please review the license for more information.
+ * ---------------------------------------------------------------------
+ * https://github.com/CreArts-Community/Friends-Grid/blob/master/license
+ */
+
+@import url("https://crearts-community.github.io/Friends-Grid/theme.css");
+
+:root {
+    --FG-cards-radius: var(--essence-rounding);
+    --FG-cards-banner-background: hsl(var(--essence-accent-blue));
+    --FG-cards-background-normal: var(--essence-secondary);
+    --FG-cards-background-hover: var(--essence-tertiary);
+    --FG-cards-background-active: var(--essence-tertiary);
+    --FG-cards-border-color-normal: var(--essence-secondary);
+    --FG-cards-border-color-hover: var(--essence-tertiary);
+}
+  
+#app-mount .peopleColumn-1wMU14 .userInfo-2WpsYG::before {
+    border-top-left-radius: var(--FG-cards-radius);
+    border-top-right-radius: var(--FG-cards-radius);
+}
+#app-mount .peopleColumn-1wMU14 .avatar-2MSPKk::before {
+    border-radius: var(--avatar-default-rounding);
+}
+#app-mount .peopleColumn-1wMU14 .wrapper-1VLyxH rect {
+    stroke: var(--FG-cards-background-normal);
+}
