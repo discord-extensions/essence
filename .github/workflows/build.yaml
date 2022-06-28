@@ -21,8 +21,8 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.4.9
         with:
-          source: theme.scss
-          destination: /tmp/essence/theme.css
+          source: src/source.scss
+          destination: /tmp/essence/source.css
 
       - name: Checkout destination Git branch
         uses: actions/checkout@v2
@@ -31,7 +31,7 @@ jobs:
           fetch-depth: 1
 
       - name: Move compiled CSS to path within build branch
-        run: mv /tmp/essence/theme.css .
+        run: mv /tmp/essence/source.css src/
 
       - name: Add and Commit changes to build branch
         run: |
