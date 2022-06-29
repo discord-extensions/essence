@@ -1,9 +1,9 @@
 #app-mount {
     .chat-2ZfjoI {
-        margin: 10px;
+        margin: var(--essence-default-padding);
         background-color: transparent;
         .content-1jQy2l {
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
             background-color: var(--background-primary);
             &::before {
                 content: none;
@@ -12,7 +12,7 @@
                 .channelTextArea-1FufC0 {
                     border-radius: 0;
                     .scrollableContainer-15eg7h {
-                        border-radius: vaR(--essence-rounding);
+                        border-radius: vaR(--essence-default-rounding);
                         .upload-vLbqu- {
                             background-color: var(--background-primary);
                         }
@@ -72,7 +72,7 @@
                 opacity: 1;
                 padding: 4px 0;
                 margin-bottom: 10px;
-                border-radius: var(--essence-rounding);
+                border-radius: var(--essence-default-rounding);
                 background-color: var(--background-accent);
                 button {
                     color: var(--text-normal);
@@ -81,7 +81,7 @@
         }
         .message-2CShn3 {
             margin-left: 5px;
-            border-radius: vaR(--essence-rounding);
+            border-radius: vaR(--essence-default-rounding);
             &::before {
                 top: 6px;
                 bottom: 6px;
@@ -141,11 +141,11 @@
             top: 10px;
             right: 18px;
             left: 10px;
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
             background-color: hsl(var(--essence-accent-brand));
         }
         .wrapper-2vIMkT {
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
             background-color: var(--background-floating);
         }
     }

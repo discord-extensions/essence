@@ -12,6 +12,23 @@
     .tile-2TcwiO, .root-1Emen5 {
         background-color: var(--background-primary);
     }
+    .border-2Vy6FN.speaking-7QZEkv {
+        box-shadow: inset 0 0 0 2px var(--status-positive), inset 0 0 0 3px var(--background-secondary);
+    }
+    .callAvatarMask-fiNMWy { // || too lazy and probably not really too important to add a mask for this
+        foreignObject {
+            mask: none;
+            .voiceAvatar-lRbblo {
+                border-radius: var(--avatar-default-rounding);
+            }
+            .status-1ZXjSF {
+                box-shadow: 0 0 0 4px var(--background-primary);
+            }
+        }
+    }
+    .wrapper-3mYmFS.ringingIncoming-fibTw-:after, .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after {
+        border-radius: var(--avatar-default-rounding);
+    }
 
     // || Buttons
     .colorable-3rVGna.primaryDark-2UJt1G {

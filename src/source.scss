@@ -11,13 +11,13 @@
 @use 'components/scrollers';
 @use 'components/switches';
 @use 'components/tags';
+@use 'components/title-container';
 
 @use 'layout/app'; 
 @use 'layout/guilds';
 @use 'layout/loading';
 @use 'layout/notice';
 @use 'layout/sidebar';
-@use 'layout/title-bar';
 @use 'layout/win-bar';
 
 @use 'pages/settings/default';

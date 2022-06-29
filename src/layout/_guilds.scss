@@ -1,4 +1,4 @@
-.guilds-2JjMmN {
+#app-mount .guilds-2JjMmN {
     left: 4px;
     width: 80px;
     background-color: transparent;
@@ -7,7 +7,7 @@
     }
     .scroller-3X7KbA {
         margin-bottom: 132px;
-        padding-top: 10px;
+        padding-top: var(--essence-default-padding);
         contain: unset;
         background-color: transparent;
         // || List Items
@@ -94,7 +94,7 @@
         .guildSeparator-a4uisj::after {
             position: fixed;
             content: '';
-            bottom: 140px;
+            bottom: calc(var(--essence-app-padding) + 122px);
             height: 2px;
             width: 32px;
             border-radius: 1px;
@@ -102,10 +102,10 @@
         }
         .tutorialContainer-2jwoiB {
             position: fixed;
-            bottom: 76px;
+            bottom: calc(var(--essence-app-padding) + 58px);
             + .listItem-3SmSlK {
                 position: fixed;
-                bottom: 20px;
+                bottom: calc(var(--essence-app-padding) + 2px);
             }
         }
         // || Folders
@@ -130,7 +130,7 @@
         }
     }
     .unreadMentionsIndicatorBottom-3RJMnQ {
-        bottom: 132px;
+        bottom: calc(var(--essence-app-padding) + 114px);
     }
 }
 
@@ -141,15 +141,15 @@
             bottom: 196px;
         }
         .tutorialContainer-2jwoiB {
-            bottom: 132px;
+            bottom: calc(var(--essence-app-padding) + 114px);
             ~ .listItem-3SmSlK:nth-child(1n) {
-                bottom: 76px;
+                bottom: calc(var(--essence-app-padding) + 58px);
             }
             ~ .listItem-3SmSlK:nth-child(2n) {
                 display: none;
                 + .listItem-3SmSlK {
                     position: fixed;
-                    bottom: 20px;
+                    bottom: calc(var(--essence-app-padding) + 2px);
                 }
             }
         }

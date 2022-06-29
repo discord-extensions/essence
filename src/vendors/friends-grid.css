@@ -8,7 +8,7 @@
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 
 :root {
-    --FG-cards-radius: var(--essence-rounding);
+    --FG-cards-radius: var(--essence-default-rounding);
     --FG-cards-banner-background: hsl(var(--essence-accent-blue));
     --FG-cards-background-normal: var(--essence-secondary);
     --FG-cards-background-hover: var(--essence-tertiary);

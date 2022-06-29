@@ -1,7 +1,7 @@
 .root-2zfUH6 {
-    margin: 18px;
+    margin: var(--essence-app-padding);
     .perksModal-CLcR1c {
-        border-radius: var(--essence-rounding);
+        border-radius: var(--essence-default-rounding);
         background-color: var(--background-primary);
     }
     .progressBar-20NUv9 {
@@ -28,7 +28,7 @@
         }
     }
     .ctaBar-Nhk8yY, .perk-19D_HN {
-        border-radius: var(--essence-rounding);
+        border-radius: var(--essence-default-rounding);
         background-color: var(--background-tertiary);
     }
 }

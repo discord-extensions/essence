@@ -12,7 +12,7 @@
 @use 'modals/user-profile';
 
 #app-mount .root-g14mjS {
-    border-radius: var(--essence-rounding);
+    border-radius: var(--essence-default-rounding);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     background-color: var(--modal-background);

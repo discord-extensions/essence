@@ -1,12 +1,12 @@
 #app-mount {
     // || Friends
     .container-2cd8Mz {
-        margin: 10px;
-        border-radius: var(--essence-rounding);
+        margin: var(--essence-default-padding);
+        border-radius: var(--essence-default-rounding);
         background-color: transparent;
         .container-ZMc96U {
-            margin-bottom: 10px;
-            border-radius: var(--essence-rounding);
+            margin-bottom: var(--essence-default-padding);
+            border-radius: var(--essence-default-rounding);
             .item-3mHhwr[style] {
                 color: hsl(var(--essence-accent-green-alt)) !important;
                 background-color: hsl(var(--essence-accent-green)) !important;
@@ -17,7 +17,7 @@
             }
         }
         .tabBody-2dgbAs {
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
             background-color: var(--background-primary);
             &::before {
                 content: none;
@@ -48,17 +48,17 @@
     }
     // || Library
     .container-36u7Lw {
-        margin: 10px;
+        margin: var(--essence-default-padding);
         background-color: transparent;
         .container-ZMc96U {
-            margin-bottom: 10px;
-            border-radius: var(--essence-rounding);
+            margin-bottom: var(--essence-default-padding);
+            border-radius: var(--essence-default-rounding);
             &::before {
                 content: none;
             }
         }
         .scrollerBase-_bVAAt {
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
             background-color: var(--background-primary);
             .installationPath-2PbaRC {
                 box-shadow: none;
@@ -84,14 +84,14 @@
     }
     // || Nitro
     .applicationStore-2nk7Lo {
-        margin: 10px;
+        margin: var(--essence-default-padding);
         background-color: transparent;
         .container-ZMc96U {
-            margin-bottom: 10px;
-            border-radius: var(--essence-rounding);
+            margin-bottom: var(--essence-default-padding);
+            border-radius: var(--essence-default-rounding);
         }
         .scroller-29cQFV {
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
             background-color: var(--background-primary);
             .feature-2IUcBI {
                 background-color: var(--background-secondary);
@@ -101,14 +101,14 @@
     }
     // || Message Requests
     .container-2YMsb4 {
-        margin: 10px;
+        margin: var(--essence-default-padding);
         background-color: transparent;
         .container-ZMc96U {
-            margin-bottom: 10px;
-            border-radius: var(--essence-rounding);
+            margin-bottom: var(--essence-default-padding);
+            border-radius: var(--essence-default-rounding);
         }
         .tabBody-2YGSMJ {
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
         }
     }
 }

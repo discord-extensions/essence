@@ -1,6 +1,6 @@
 .sidebar-1tnWFu {
-    margin: 10px 0;
-    border-radius: var(--essence-rounding) !important;
+    margin: var(--essence-default-padding) 0;
+    border-radius: var(--essence-default-rounding) !important;
     background-color: var(--background-primary);
     .container-1NXEtd, .privateChannels-oVe7HL, .scroller-WSmht3 {
         background-color: transparent;
@@ -30,7 +30,7 @@
                 width: 210px;
                 height: 118px;
                 margin: 15px;
-                border-radius: var(--essence-rounding);
+                border-radius: var(--essence-default-rounding);
                 pointer-events: none;
                 .bannerImg-2PzH6z {
                     width: 210px;
@@ -177,6 +177,9 @@
     }
     .liveShapeRound-2Tgi2d {
         background-color: var(--status-danger) !important;
+    }
+    .avatarSpeaking-2pCGrZ {
+        box-shadow: inset 0 0 0 2px var(--status-positive), inset 0 0 0 3px var(--background-secondary);
     }
     // || User Area
     .panels-3wFtMD {

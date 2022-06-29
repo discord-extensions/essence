@@ -1,6 +1,6 @@
 #app-mount {
     .container-3wLKDe {
-        border-radius: var(--essence-rounding);
+        border-radius: var(--essence-default-rounding);
         background-color: var(--background-primary);
         .mainCard-3KBsBI, .sidebarCard-1Gn1ch, .container-2IhveL {
             border-color: var(--background-tertiary);
@@ -36,7 +36,7 @@
         ~ .container-3XgAHv {
             margin: 10px;
             margin-left: -10px;
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
             .chat-25x62K {
                 &::before {
                     content: none;

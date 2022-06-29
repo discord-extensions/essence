@@ -12,8 +12,8 @@
         background-color: transparent;
     }
     .layers-OrUESM {
-        margin: 18px;
-        border-radius: var(--essence-rounding);
+        margin: var(--essence-app-padding);
+        border-radius: var(--essence-app-rounding);
         box-shadow: var(--essence-app-background-shadow);
         background-color: var(--background-tertiary);
         -webkit-app-region: no-drag;

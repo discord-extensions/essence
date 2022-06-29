@@ -1,7 +1,7 @@
 #app-mount {
     .embedFull-1HGV2S {
         border-left: 0;
-        border-radius: var(--essence-rounding);
+        border-radius: var(--essence-default-rounding);
         padding-left: 7px;
         background-color: var(--background-secondary);
         &::before {
@@ -17,18 +17,18 @@
     }
     .wrapperAudio-1Bzv_Z {
         border: none;
-        border-radius: var(--essence-rounding);
+        border-radius: var(--essence-default-rounding);
         background-color: var(--background-secondary);
     }
     .wrapper-1HIH0j {
-        border-radius: var(--essence-rounding);
+        border-radius: var(--essence-default-rounding);
         background-color: var(--background-secondary);
         .guildIconImage-74OdmM {
             background-color: var(--background-tertiary);
         }
     }
     .embedWrapper-1MtIDg {
-        border-radius: var(--essence-rounding);
+        border-radius: var(--essence-default-rounding);
         .textContainer-36wgKK {
             border: none;
         }
@@ -37,7 +37,7 @@
         }
     }
     .video-2HW4jD {
-        border-radius: vaR(--essence-rounding);
+        border-radius: vaR(--essence-default-rounding);
         -webkit-app-region: no-drag;
     }
 }

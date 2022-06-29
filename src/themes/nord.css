@@ -3,7 +3,6 @@
     --essence-theme-name: 'Nord';
     --essence-theme-gradient: linear-gradient(70deg, #5e81ac, #8fbcbb);
     --essence-app-background-image: url('https://discord-extensions.github.io/essence/assets/theme-bgs/nord.png');
-    --essence-rounding: 6px;
 }
 
 .theme-dark, .theme-light {

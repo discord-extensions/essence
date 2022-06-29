@@ -12,7 +12,8 @@
             color: hsl(var(--essence-accent-brand));
         }
         // || CONTRIBUTOR
-        &[data-user-id="597072695875600385"] {
+        &[data-user-id="597072695875600385"],
+        &[data-user-id="571020385684946944"] {
             ~ .headerTop-3GPUSF .headerTag-3GXZkV::after {
                 content: 'ESSENCE CONTRIBUTOR';
                 color: hsl(var(--essence-accent-orange));

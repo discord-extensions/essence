@@ -3,7 +3,6 @@
     --essence-theme-gradient: linear-gradient(70deg, #FC5C7D, #6938f0);
     --essence-theme-gradient-animation: defaultGradient 3s ease infinite;
     --essence-app-background-image: url('https://discord-extensions.github.io/essence/assets/theme-bgs/midnight-essence.png');
-    --essence-rounding: 6px;
 }
 
 .theme-dark, .theme-dark .root-g14mjS, .theme-dark .force-theme.theme-light {

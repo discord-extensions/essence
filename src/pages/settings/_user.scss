@@ -6,7 +6,7 @@
             width: unset;
             height: 150px;
             margin: 8px;
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
         }
         .userInfo-regn9W {
             align-items: center;
@@ -106,7 +106,7 @@
                 height: 120px;
                 width: unset;
                 margin: 8px;
-                border-radius: var(--essence-rounding);
+                border-radius: var(--essence-default-rounding);
             }
             .avatarUploader-qEFQS2 {
                 top: 76px;
@@ -159,7 +159,7 @@
         }
     }
     .connection-YOVI9j {
-        border-radius: var(--essence-rounding);
+        border-radius: var(--essence-default-rounding);
         background-color: var(--background-tertiary);
         .connectionHeader-Ixbb1s {
             margin: 0 20px;
@@ -168,7 +168,7 @@
             background-color: var(--background-tertiary);
         }
         .integration-1qC-fv {
-            border-radius: var(--essence-rounding);
+            border-radius: var(--essence-default-rounding);
             background-color: var(--background-primary);
         }
     }
