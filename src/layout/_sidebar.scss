@@ -173,13 +173,16 @@
     }
     // || Voice
     .avatar-3FKimL {
-        border-radius: 37%;
+        border-radius: var(--avatar-default-rounding);
     }
     .liveShapeRound-2Tgi2d {
         background-color: var(--status-danger) !important;
     }
     .avatarSpeaking-2pCGrZ {
         box-shadow: inset 0 0 0 2px var(--status-positive), inset 0 0 0 3px var(--background-secondary);
+    }
+    .unread-2wipsx {
+        color: var(--text-normal);
     }
     // || User Area
     .panels-3wFtMD {

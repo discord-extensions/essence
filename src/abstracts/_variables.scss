@@ -16,7 +16,7 @@
 
     /* || Message Items */
     --message-brand-pill: hsl(var(--essence-accent-brand));
-    --message-brand-background: hsl(var(--essence-accent-brand), 0.15);
+    --message-brand-background: hsla(var(--essence-accent-brand), 0.15);
     --message-brand-background-hover: hsla(var(--essence-accent-brand), 0.25);
     --message-mentioned-pill: hsl(var(--essence-accent-orange));
     --message-mentioned-background: hsla(var(--essence-accent-orange), 0.15);
@@ -143,13 +143,13 @@
     --button-outline-danger-background-disabled: var(--button-red-background-disabled);
     --text-danger: hsl(var(--essence-accent-red));
     --status-danger: hsl(var(--essence-accent-red));
-    --info-danger-background: hsl(var(--essence-accent-red), 0.1);
+    --info-danger-background: hsla(var(--essence-accent-red), 0.1);
     --info-danger-foreground: hsl(var(--essence-accent-red));
 
     // || Yellow (warning)
     --text-warning: hsl(var(--essence-accent-yellow));
     --status-warning: hsl(var(--essence-accent-yellow));
-    --info-warning-background: hsl(var(--essence-accent-yellow), 0.1);
+    --info-warning-background: hsla(var(--essence-accent-yellow), 0.1);
     --info-warning-foreground: hsl(var(--essence-accent-yellow));
     --status-warning-background: hsl(var(--essence-accent-yellow));
 
