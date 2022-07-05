@@ -29,4 +29,29 @@
     .updateIconForeground-2V_zo4 {
         fill: var(--status-positive);
     }
+
+    // || Status
+    .status-12NUUC {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        svg {
+            display: none;
+        }
+        &[aria-label="Online"] {
+            background-color: var(--status-online);
+        }
+        &[aria-label="Do Not Disturb"] {
+            background-color: var(--status-dnd);
+        }
+        &[aria-label="Idle"] {
+            background-color: var(--status-idle);
+        }
+        &[aria-label="Offline"] {
+            background-color: var(--status-offline);
+        }
+        &[aria-label="Streaming"] {
+            background-color: var(--status-streaming);
+        }
+    }
 }
