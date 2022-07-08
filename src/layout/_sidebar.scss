@@ -175,9 +175,6 @@
     .avatar-3FKimL {
         border-radius: var(--avatar-default-rounding);
     }
-    .liveShapeRound-2Tgi2d {
-        background-color: var(--status-danger) !important;
-    }
     .avatarSpeaking-2pCGrZ {
         box-shadow: inset 0 0 0 2px var(--status-positive), inset 0 0 0 3px var(--background-secondary);
     }
@@ -201,6 +198,12 @@
         .buttonColor-3bP3fX {
             color: #fff;
             background-color: var(--button-secondary-background);
+            &.buttonActive-Uc1jHx {
+                background-color: var(--button-positive-background);
+                &:hover {
+                    background-color: var(--button-positive-background-hover);
+                }
+            }
             &.fauxDisabled-8w0hCZ {
                 background-color: var(--button-secondary-background-disabled);
             }

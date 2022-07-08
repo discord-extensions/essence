@@ -1,4 +1,4 @@
-.wrapper-1gVUIN {
+.wrapper-1gVUIN, .container-cH6QoY {
     // || Main
     &.minimum-fXpVNc {
         margin-bottom: 10px;
@@ -9,7 +9,7 @@
     .callContainer-HtHELf {
         border-radius: var(--essence-rounding);
     }
-    .tile-2TcwiO, .root-1Emen5 {
+    .tile-2TcwiO, .root-1Emen5, .streamPreview-3Fo29Y, .videoWrapper-3rtb_V {
         background-color: var(--background-primary);
     }
     .border-2Vy6FN.speaking-7QZEkv {
@@ -17,6 +17,12 @@
     }
     .wrapper-3mYmFS.ringingIncoming-fibTw-:after, .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after {
         border-radius: var(--avatar-default-rounding);
+    }
+    .liveQualityIndicator-2GyS_e {
+        background-color: var(--background-secondary-alt) !important;
+    }
+    .continueIconContainer-1-f6X1 {
+        background-color: var(--background-tertiary) !important;
     }
 
     // || Buttons
@@ -38,4 +44,20 @@
             background: var(--button-red-background-active);
         }
     }
+    .button-3Vyz67, .cta-3-AFNF {
+        background: var(--button-secondary-background);
+        &:hover {
+            background: var(--button-secondary-background-hover);
+        }
+    }
+    .participantsButton-1WBdFP {
+        background: var(--background-primary);
+        &:hover {
+            background: var(--background-secondary);
+        }
+    }
+}
+
+.liveShapeRound-2Tgi2d, .liveShapeRoundRight-1ifBrO {
+    background-color: var(--status-danger) !important;
 }
