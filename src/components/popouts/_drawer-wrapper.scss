@@ -54,6 +54,9 @@
             }
         }
     }
+    .diversitySelectorOptionsInExpressionPicker-3wybQR {
+        right: 1px;
+    }
     // || Loading Content
     .imageLoading-2uloYN {
         border-radius: 30%;
@@ -68,5 +71,8 @@
         &:hover::after {
             box-shadow: inset 0 0 0 2px hsl(var(--essence-accent-brand)),inset 0 0 0 3px var(--background-floating);
         }
+    }
+    .emptyHintCard-2A7Tng {
+        background-color: var(--background-primary);
     }
 }
