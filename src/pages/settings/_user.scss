@@ -281,13 +281,13 @@
     // || Game Overlay
     .wrapper-SdcMKg {
         border-color: hsl(var(--essence-accent-brand));
-        .option-1QI4c9 {
+        .option-1QI4c9:not(:hover) {
             background-color: var(--background-secondary-alt);
             &.selected-18Wszc {
                 background-color: hsl(var(--essence-accent-brand));
             }
         }
-        .disabled-35mc5w {
+        .disabled-35mc5w:not(:hover) {
             color: var(--background-secondary-alt);
             &.selected-18Wszc {
                 color: hsl(var(--essence-accent-red));

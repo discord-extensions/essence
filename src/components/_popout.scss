@@ -1,11 +1,13 @@
 @use 'popouts/add-game';
 @use 'popouts/autocomplete';
 @use 'popouts/color-picker';
+@use 'popouts/content-warning';
 @use 'popouts/context-menu';
 @use 'popouts/drawer-wrapper';
 @use 'popouts/inbox';
 @use 'popouts/member-roles';
 @use 'popouts/noise-suppression';
+@use 'popouts/overflow-roles';
 @use 'popouts/permissions-autocomplete';
 @use 'popouts/pinned';
 @use 'popouts/search';
