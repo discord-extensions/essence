@@ -4,39 +4,40 @@
 }
 
 // || Custom Tags
-.userPopout-2j1gM4 {
-    .avatarWrapper-eenWra {
-        // || DEV
-        &[data-user-id="399416615742996480"] ~ .headerTop-3GPUSF .headerTag-3GXZkV::after {
-            content: 'ESSENCE DEV';
-            color: hsl(var(--essence-accent-brand));
-        }
-        // || CONTRIBUTOR
-        &[data-user-id="597072695875600385"],
-        &[data-user-id="571020385684946944"] {
-            ~ .headerTop-3GPUSF .headerTag-3GXZkV::after {
-                content: 'ESSENCE CONTRIBUTOR';
-                color: hsl(var(--essence-accent-orange));
-            }
-        }
-        // || HELPERS
-        &[data-user-id="307316554805018624"],
-        &[data-user-id="515780151791976453"],
-        &[data-user-id="359175647257690113"] {
-            ~ .headerTop-3GPUSF .headerTag-3GXZkV::after {
-                content: 'ESSENCE HELPER';
-                color: hsl(var(--essence-accent-green));
-            }
-        }
-    }
-    .headerTop-3GPUSF .headerTag-3GXZkV::after {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        margin-left: 3px;
-        padding-top: 3px;
-        font-size: 10px;
-        font-weight: 600;
-        line-height: 11px;
-    }
-}
+// .userPopout-2j1gM4 {
+//     .avatarWrapper-eenWra {
+//         // || DEV
+//         &[data-user-id="399416615742996480"] ~ .headerTop-3GPUSF .headerTag-3GXZkV::after {
+//             content: 'ESSENCE DEV';
+//             color: hsl(var(--essence-accent-brand));
+//         }
+//         // || CONTRIBUTOR
+//         &[data-user-id="597072695875600385"],
+//         &[data-user-id="571020385684946944"],
+//         &[data-user-id="403195964241739776"] {
+//             ~ .headerTop-3GPUSF .headerTag-3GXZkV::after {
+//                 content: 'ESSENCE CONTRIBUTOR';
+//                 color: hsl(var(--essence-accent-orange));
+//             }
+//         }
+//         // || HELPERS
+//         &[data-user-id="307316554805018624"],
+//         &[data-user-id="515780151791976453"],
+//         &[data-user-id="359175647257690113"] {
+//             ~ .headerTop-3GPUSF .headerTag-3GXZkV::after {
+//                 content: 'ESSENCE HELPER';
+//                 color: hsl(var(--essence-accent-green));
+//             }
+//         }
+//     }
+//     .headerTop-3GPUSF .headerTag-3GXZkV::after {
+//         display: flex;
+//         justify-content: center;
+//         position: relative;
+//         margin-left: 3px;
+//         padding-top: 3px;
+//         font-size: 10px;
+//         font-weight: 600;
+//         line-height: 11px;
+//     }
+// }

@@ -4,6 +4,7 @@
 @use 'popouts/content-warning';
 @use 'popouts/context-menu';
 @use 'popouts/drawer-wrapper';
+@use 'popouts/emoji';
 @use 'popouts/inbox';
 @use 'popouts/member-roles';
 @use 'popouts/noise-suppression';
@@ -25,9 +26,9 @@
     }
     .scrollerBase-_bVAAt {
         background-color: var(--background-floating);
-        &::-webkit-scrollbar {
-            display: none;
-        }
+        // &::-webkit-scrollbar {
+        //     display: none;
+        // }
     }
     .footer-5ji8u1 {
         margin: 0 15px;

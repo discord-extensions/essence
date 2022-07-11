@@ -4,7 +4,7 @@
     @description  A smooth, rounded theme.
     @author       LuckFire#4800
     @namespace    https://github.com/discord-extensions
-    @version      1.1.2
+    @version      1.2.0
     ==/UserStyle== */
 
     /* || ➕ Addons */
@@ -20,6 +20,7 @@
     /* @import url('https://discord-extensions.github.io/essence/src/themes/midnight-mars.css'); */
     /* @import url('https://discord-extensions.github.io/essence/src/themes/nord.css'); */
     /* @import url('https://discord-extensions.github.io/essence/src/themes/nebula.css'); */
+    /* @import url('https://discord-extensions.github.io/essence/src/themes/dracula.css'); */
 
     /* || 📢 Source */
     @import url('https://discord-extensions.github.io/essence/src/source.css');

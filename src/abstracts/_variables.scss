@@ -1,9 +1,5 @@
 :root {
-    --essence-version: '1.1.2';
-    --essence-app-rounding: 6px;
-    --essence-app-padding: 18px;
-    --essence-default-rounding: 6px;
-    --essence-default-padding: 10px;
+    --essence-version: '1.2.0';
 
     /* || Channel Items */
     --container-rounding: 6px;
@@ -34,10 +30,14 @@
     --status-streaming: hsl(var(--essence-accent-purple));
     --status-offline: hsl(var(--essence-accent-grey));
 
-    /* || Rounding */
+    /* || Rounding & Padding */
     --avatar-default-rounding: 34%;
     --server-default-rounding: 39%;
     --server-selected-rounding: 34%;
+    --essence-app-rounding: 6px;
+    --essence-app-padding: 18px;
+    --essence-default-rounding: 6px;
+    --essence-default-padding: 10px;
 }
 
 .theme-dark, .theme-dark .root-g14mjS, .theme-dark .force-theme.theme-light,

@@ -7,6 +7,9 @@
     // || Roles
     .container-3EtAkD {
         background-color: var(--background-tertiary);
+        &:hover {
+            background-color: var(--background-modifier-hover);
+        }
     }
 
     // || Stickers
@@ -146,5 +149,8 @@
     // || Welcome Screen
     .previewContainer-29oeA6 {
         background-color: var(--background-tertiary);
+    }
+    .descriptionInput-2-jF56 {
+        background-color: var(--input-background);
     }
 }
