@@ -22,7 +22,7 @@ git clone https://github.com/discord-extensions/essence
 
 # Credits
 ### Contributors
-|<a href="https://github.com/Loremly"><img src="https://avatars.githubusercontent.com/u/86319836?v=4" width="90px" height="90px"></a>|<a href="https://github.com/HonbraDev"><img src="https://avatars.githubusercontent.com/u/54026315?v=4" width="90px" height="90px"></a>|<a href="https://avatars.githubusercontent.com/u/38290480?v=4" width="90px" height="90px"></a>|
+|<a href="https://github.com/Loremly"><img src="https://avatars.githubusercontent.com/u/86319836?v=4" width="90px" height="90px"></a>|<a href="https://github.com/HonbraDev"><img src="https://avatars.githubusercontent.com/u/54026315?v=4" width="90px" height="90px"></a>|<a href="https://github.com/FedeIlLeone"><img src="https://avatars.githubusercontent.com/u/38290480?v=4" width="90px" height="90px"></a>|
 |:-:|:-:|:-:|
 |[Loremly](https://github.com/Loremly)|[HonbraDev](https://github.com/HonbraDev)|[FedeIlLeone](https://github.com/FedeIlLeone)|
 
