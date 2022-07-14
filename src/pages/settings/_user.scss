@@ -85,6 +85,9 @@
 
     // || User Profile
     .preview-Z55SA3 {
+        .divider-1wtgZ3 {
+            display: none;
+        }
         .customStatus-3XAoF9 {
             margin-bottom: 16px;
             padding-top: 24px;
@@ -264,6 +267,9 @@
     }
     .backgroundOptionInner-SSz19O {
         background-color: var(--background-primary);
+        .backgroundOptionContent-2-UepH {
+            color: var(--text-normal);
+        }
     }
 
     // || Activity Status
@@ -281,13 +287,13 @@
     // || Game Overlay
     .wrapper-SdcMKg {
         border-color: hsl(var(--essence-accent-brand));
-        .option-1QI4c9 {
+        .option-1QI4c9:not(:hover) {
             background-color: var(--background-secondary-alt);
             &.selected-18Wszc {
                 background-color: hsl(var(--essence-accent-brand));
             }
         }
-        .disabled-35mc5w {
+        .disabled-35mc5w:not(:hover) {
             color: var(--background-secondary-alt);
             &.selected-18Wszc {
                 color: hsl(var(--essence-accent-red));

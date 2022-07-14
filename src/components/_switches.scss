@@ -2,6 +2,8 @@
     background-color: hsl(var(--essence-accent-grey)) !important;
     transition: all 225ms ease;
     .slider-32CRPX {
+        transform:scale(0.85);
+        transform-origin:center;
         svg {
             display: none;
         }

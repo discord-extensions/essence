@@ -1,6 +1,8 @@
+@use 'modals/account-switcher';
+@use 'modals/add-to-dm';
 @use 'modals/events';
 @use 'modals/keybinds';
-@use 'modals/account-switcher';
+@use 'modals/drawer-wrapper';
 @use 'modals/message-delete';
 @use 'modals/quick-switcher';
 @use 'modals/reactions';
@@ -8,6 +10,7 @@
 @use 'modals/server-createjoin';
 @use 'modals/server-invited';
 @use 'modals/server-verify';
+@use 'modals/sticker-upload';
 @use 'modals/stream';
 @use 'modals/user-profile';
 

@@ -10,5 +10,9 @@
     .keybindShortcut-3zF1P9 .key-N5VmHN {
         box-shadow: inset 0 -4px 0 var(--background-secondary);
         background-color: var(--background-secondary-alt);
+        color: var(--interactive-normal);
+        g {
+            fill: var(--interactive-normal);
+        }
     }
 }

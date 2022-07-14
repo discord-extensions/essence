@@ -5,6 +5,9 @@
     .container-1NXEtd, .privateChannels-oVe7HL, .scroller-WSmht3 {
         background-color: transparent;
     }
+    .sectionDivider-189lqb {
+        display: none;
+    }
     .container-1NXEtd {
         .container-1-ERn5 {
             // || Server Name
@@ -14,15 +17,53 @@
                 box-shadow: none;
                 border-bottom: 1px solid var(--background-modifier-accent);
                 background-color: transparent;
+                .headerContent-2SNbie {
+                    filter: none;
+                    .flowerStarContainer-1QeD-L {
+                        width: 20px !important;
+                        height: 20px !important;
+                        .flowerStar-2tNFCR {
+                            display: none;
+                        }
+                        .childContainer-U_a6Yh {
+                            border-radius: 7px;
+                            background-color: var(--background-tertiary);
+                            svg {
+                                color: var(--text-normal);
+                            }
+                        }
+                    }
+                    .headerChildren-2qV9P8 {
+                        position: absolute;
+                        right: 0;
+                    }
+                    .name-3Uvkvr {
+                        padding-right: 18px;
+                    }
+                }
                 .communityInfoContainer-1dMVpU {
                     position: absolute;
-                    top: 61px;
-                    right: 0px;
+                    top: 14px;
+                    margin: 0;
+                    .communityInfoPill-2Mll66 {
+                        justify-content: center;
+                        width: 20px;
+                        height: 20px;
+                        padding: 0;
+                        border-radius: 7px;
+                        background-color: var(--background-tertiary);
+                        .communityIcon-28UI1f {
+                            margin: 0;
+                            color: var(--text-normal);
+                        }
+                        .text-xs-normal-3SiVjE {
+                            display: none;
+                        }
+                    }
                 }
-                .communityInfoPill-2Mll66 {
-                    border-radius: 7px;
-                    background-color: hsl(var(--essence-accent-brand));
-                }
+            }
+            &.communityInfoVisible-3zc5_s .headerContent-2SNbie {
+                margin-left: 23px;
             }
             // || Server Banner
             .animatedContainer-2laTjx {
@@ -32,9 +73,14 @@
                 margin: 15px;
                 border-radius: var(--essence-default-rounding);
                 pointer-events: none;
-                .bannerImg-2PzH6z {
-                    width: 210px;
-                    height: 118px;
+                .bannerImage-ubW8K- {
+                    &::before {
+                        content: none;
+                    }
+                    .bannerImg-2PzH6z {
+                        width: 210px;
+                        height: 118px;
+                    }
                 }
             }
             &.bannerVisible-Vkyg1I ~ .scroller-1ox3I2 {
@@ -175,9 +221,6 @@
     .avatar-3FKimL {
         border-radius: var(--avatar-default-rounding);
     }
-    .liveShapeRound-2Tgi2d {
-        background-color: var(--status-danger) !important;
-    }
     .avatarSpeaking-2pCGrZ {
         box-shadow: inset 0 0 0 2px var(--status-positive), inset 0 0 0 3px var(--background-secondary);
     }
@@ -201,6 +244,12 @@
         .buttonColor-3bP3fX {
             color: #fff;
             background-color: var(--button-secondary-background);
+            &.buttonActive-Uc1jHx {
+                background-color: var(--button-positive-background);
+                &:hover {
+                    background-color: var(--button-positive-background-hover);
+                }
+            }
             &.fauxDisabled-8w0hCZ {
                 background-color: var(--button-secondary-background-disabled);
             }

@@ -7,6 +7,9 @@
     // || Roles
     .container-3EtAkD {
         background-color: var(--background-tertiary);
+        &:hover {
+            background-color: var(--background-modifier-hover);
+        }
     }
 
     // || Stickers
@@ -134,9 +137,20 @@
     .getStartedWrapper-2mNX-j {
         background-color: var(--background-tertiary);
     }
+    .exampleContainer-2O-nVK {
+        .exampleModal-1lRfuE, .content-pHpkq8, .footer-11k_3m {
+            background-color: var(--modal-background);
+        }
+        .guildSidebar-pjuGkm {
+            background-color: var(--background-tertiary);
+        }
+    }
 
     // || Welcome Screen
     .previewContainer-29oeA6 {
         background-color: var(--background-tertiary);
+    }
+    .descriptionInput-2-jF56 {
+        background-color: var(--input-background);
     }
 }

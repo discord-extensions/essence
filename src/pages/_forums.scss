@@ -2,13 +2,14 @@
     .container-3wLKDe {
         border-radius: var(--essence-default-rounding);
         background-color: var(--background-primary);
-        .mainCard-3KBsBI, .sidebarCard-1Gn1ch, .container-2IhveL {
+        .mainCard-3KBsBI, .sidebarCard-1Gn1ch,
+        .container-2IhveL, .container-2nXUah, .container-2_J666 {
             border-color: var(--background-tertiary);
             background-color: var(--background-tertiary);
         }
         .pill-3pRQlO {
             background-color: var(--background-modifier-accent);
-            &:hover {
+            &.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
                 background-color: var(--background-modifier-hover);
             }
         }
@@ -41,19 +42,25 @@
                 &::before {
                     content: none;
                 }
-                .container-3YcgdM {
-                    border-top: none;
-                }
-                .divider-AZrXIA {
-                    margin-left: 15px;
-                    height: 1px;
-                    width: calc(100% - 30px);
-                }
             }
         }
         ~ .resizeHandle-PBRzPC {
             margin-left: -10px;
             margin-right: 10px;
         }
+    }
+    .botTagOP-3pUTXu {
+        color: #fff;
+    }
+    .header-1RJoTb {
+        border-top-left-radius: 8px;
+    }
+    .container-3YcgdM {
+        border-top: none;
+    }
+    .divider-AZrXIA {
+        margin-left: 15px;
+        height: 1px;
+        width: calc(100% - 30px);
     }
 }
