@@ -374,5 +374,5 @@
     d:path(var(--folder-servers));
 }
 [d="M3.20101 23.6243L1.7868 22.2101L21.5858 2.41113L23 3.82535L3.20101 23.6243Z"] {
-    fill: var(--background-primary);
+    fill: var(--status-danger);
 }
