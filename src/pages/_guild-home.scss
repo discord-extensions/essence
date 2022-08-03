@@ -2,15 +2,17 @@
     .title-31SJ6t.background-fkKrXt {
         background-color: var(--background-primary);
     }
-    .card-3x20HF {
-        background-color: var(--background-tertiary);
-    }
+    .card-3x20HF,
     .container-2Hi7Km,
+    .container-3rZ3XA,
     .container-xwOzwi,
-    .emptyStateContainer-xWOMPJ {
+    .card-3x20HF .wrapper-15CKyy {
         background-color: var(--background-tertiary);
     }
-    @media(max-width: 1300px) {
+    .emptyStateContainer-xWOMPJ {
+        background-color: var(--background-secondary);
+    }
+    @media (max-width: 1300px) {
         .container-xwOzwi,
         .container-3rZ3XA {
             background-color: var(--background-primary);
@@ -19,5 +21,19 @@
         .emptyStateContainer-xWOMPJ {
             background-color: var(--background-tertiary);
         }
+    }
+    .icon-2IDTxf {
+        border-color: var(--background-tertiary);
+    }
+    .iconContainer-2R-3M1,
+    .moreUsers-_v6T-L,
+    .typingIndicator-KF8hGa {
+        background-color: var(--background-primary);
+    }
+    .previewContainer-3BJM_S {
+        background-color: var(--background-secondary);
+    }
+    .dummySwitch-fxMi2_ {
+        background-color: hsl(var(--essence-accent-green));
     }
 }
