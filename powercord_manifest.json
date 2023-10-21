@@ -1,8 +1,0 @@
-{
-    "version": "1.1.2",
-    "author": "LuckFire",
-    "name": "Essence",
-    "description": "A smooth, rounded theme.",
-    "license": "MIT",
-    "theme": "theme.scss"
-}

@@ -1,0 +1,12 @@
+{
+  "name": "essence",
+  "version": "2.0.0",
+  "author": "LuckFire",
+  "description": "A smooth, rounded theme.",
+  "main": "index.js",  "scripts": {
+    "dev": "theme-scss dev",
+    "build": "theme-scss build"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
