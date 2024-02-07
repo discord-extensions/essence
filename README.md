@@ -1,3 +1,8 @@
+# Sunsetting Essence
+This theme has been broken for quite some tim- wait, I've been here before. Jokes aside, it's been 2 years (at the time of writing this) since Essence was last updated. I had a rewrite planned that would make the theme better and more customizable, but, I found that every time I went to work on it, I didn't know exactly what I wanted to do or how I should execute it. Sure, I could simply just fix portions the theme, but that doesn't feel like enough to me. I hate releasing something that's half-baked. It would end up in the same state sometime in the future where I just don't feel like fixing it cause I think it sucks.
+
+More emotional than it should be for a notice? You bet! But, thank you everyone who has used this theme. I apologize if I let anyone down.
+
 <img src="https://discord-extensions.github.io/essence/assets/previews/theme-default-mix.png">
 <font size="2">For more previews, check out the previews.md file.</font>
 
